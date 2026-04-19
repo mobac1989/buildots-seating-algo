@@ -62,7 +62,7 @@ const SeatMap: React.FC<SeatMapProps> = ({ selectedDate, attendance, onSeatClick
         onMouseLeave={() => setIsDragging(false)}
         onMouseUp={() => setIsDragging(false)}
         onMouseMove={handleMouseMove}
-        className={`w-full h-full overflow-auto cursor-${isDragging ? 'grabbing' : 'grab'} select-none p-16 custom-scrollbar flex items-start justify-center`}
+        className={`w-full h-full overflow-auto cursor-${isDragging ? 'grabbing' : 'grab'} select-none p-32 custom-scrollbar flex items-start justify-center`}
       >
         <div 
           className="relative bg-white border border-slate-200 shadow-2xl rounded-[1rem]"
