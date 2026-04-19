@@ -38,12 +38,12 @@ const SEAT_MONITORS: Record<string, 1 | 2> = {
 };
 
 const MAP_CSV = `
-F, F, F, F, F, F, F, F
-F, 12, F, 8, 5, F, F, F
-F, 11, F, 7, 4, F, 2, F
-F, 10, F, 6, 3, F, 1, F
-F, 9, F, F, F, F, door, F
-F, F, F, F, F, F, F, F
+F,F,F,F,F,F,F,F
+F,12,F,8,5,F,F,F
+F,11,F,7,4,F,2,F
+F,10,F,6,3,F,1,F
+F,9,F,F,F,F,Door,F
+F,F,F,F,F,F,F,F
 `.trim();
 
 const generateMapData = (): MapCell[] => {
