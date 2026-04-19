@@ -62,7 +62,7 @@ const generateMapData = (): MapCell[] => {
     label1: 'Office' 
   });
 
-  const SPECIAL_ROOMS = ["Wall", "Phone Booths", "Aberfeldy"];
+  const SPECIAL_ROOMS = ["Door"];
 
   rows.forEach((rowStr, yIdx) => {
     const cols = rowStr.split(',');
