@@ -553,7 +553,7 @@ const App: React.FC = () => {
           <div className="max-w-4xl w-full bg-white rounded-[3rem] shadow-2xl border border-slate-200 overflow-hidden flex flex-col md:flex-row min-h-[500px] animate-in fade-in duration-500 relative">
             <div className="md:w-5/12 bg-blue-600 p-12 text-white flex flex-col justify-center">
               <Sparkles className="w-10 h-10 mb-8" />
-              <h1 className="text-4xl font-black mb-4 leading-tight">ניהול מושבים Buildots</h1>
+              <h1 className="text-4xl font-black mb-4 leading-tight">ניהול מושבים Buildots אלגו</h1>
               <p className="text-blue-100 text-lg opacity-90 text-right">סנכרון חכם של עמדות עבודה.</p>
             </div>
             
