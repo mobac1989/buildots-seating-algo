@@ -175,7 +175,7 @@ const App: React.FC = () => {
   };
 
   const handleAdminAuth = () => {
-    if (passInput === 'meitar') {
+    if (passInput === 'algoalgo') {
       setIsAdmin(true);
       setStep('admin_dashboard');
       setAdminWeekMode('next');
